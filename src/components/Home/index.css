@@ -1,0 +1,87 @@
+.home-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px;
+}
+
+.home-card {
+  width: 100%;
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px;
+  }
+
+  .home-card {
+    width: 50%;
+    order: 0;
+  }
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #1e293b;
+}
+
+.home-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+}
+
+.shop-now-button {
+  background-color: #0b69ff;
+  color: #e6f6ff;
+  height: 32px;
+  width: 138px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.home-img {
+  height: 50%;
+  order: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-family: 'Roboto';
+    font-size: 34px;
+    color: #1e293b;
+  }
+
+  .home-text {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #64748b;
+  }
+
+  .shop-now-button {
+    background-color: #0b69ff;
+    color: #e6f6ff;
+    height: 32px;
+    width: 138px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .home-img {
+    height: 70%;
+    order: 1;
+  }
+}
